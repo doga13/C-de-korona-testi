@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	int secim ;
+	int secim1 , secim2 , secim3 ;
+	printf("1.Cok iyiyim\n2.iyiyim, ama biraz halsizim\n3.iyi hissetmiyorum\n4.halsizim ve hasta hissediyorum");
+	printf("\nBugun nasil hissediyorsun?\n");
+	
+	scanf("%d", &secim);
+	switch (secim) {
+		case 1 : 
+		printf("Saglikli gunler dileriz!"); break;
+		case 2 : 
+		printf("1.Yeni baslayan 38 uzeri ates\n2.Yeni baslayan kuru oksuruk\n3.Yeni baslayan nefes darligi\n4.Yeni baslayan tat/koku kaybi\n5.Yukaridaki sikayetlerin hepsi ya da birden fazla\n");
+		printf("Sikayetleriniz nelerdir?\n");
+		scanf("%d", &secim1); 
+		switch (secim1){
+			case 1 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 2 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 3 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 4 : 
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+			case 5 :
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+		} break;
+		case 3 : 
+		printf("1.Yeni baslayan 38 uzeri ates\n2.Yeni baslayan kuru oksuruk\n3.Yeni baslayan nefes darligi\n4.Yeni baslayan tat/koku kaybı\n5.Yukaridaki sikayetlerin hepsi ya da birden fazla\n");
+		printf("Sikayetleriniz nelerdir?\n");
+		scanf("%d", &secim2); 
+		switch (secim2){
+			case 1 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 2 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break; 
+			case 3 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break; 
+			case 4 : 
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+			case 5 :
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+		} break;
+		case 4 : 
+		printf("1.Yeni baslayan 38 uzeri ates\n2.Yeni baslayan kuru oksuruk\n3.Yeni baslayan nefes darligi\n4.Yeni baslayan tat/koku kaybı\n5.Yukaridaki sikayetlerin hepsi ya da birden fazla\n");
+		printf("Sikayetleriniz nelerdir?\n");
+		scanf("%d", &secim3);
+		switch (secim3){
+			case 1 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 2 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 3 : 
+			printf("Kendini takip et semptomlar degisirse testi tekrar yap!!"); break;
+			case 4 : 
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+			case 5 :
+			printf("Maske takarak en yakin saglik kurulusuna basvur!!"); break;
+		} break;
+		
+		
+	}
+	return 0;
+}
